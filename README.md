@@ -19,7 +19,7 @@ The current module is a directory containing various files (including cache file
 
 1. app.py : Contains the Flask Script to Receive inputs from user as a *GET* request and send out a suitable crop to the user as a response.
 2. Crop_recommendation.csv (Dataset)
-3. crop_recommendation_model.pkl (Trained Model Dumped in Pickle file)
+3. KNN_model_crop_prediction.pkl (Trained Model Dumped in Pickle file)
 4. model.py : Python Script to create a model using KNN and dump into a pickle file
 
 
@@ -49,7 +49,7 @@ Precision agriculture is in trend nowadays. It helps the farmers to get informed
 
 ## How to run the module:
    
-The module contains a trained model using K-NN algorithm that has been trained on a dataset via supervised learning. The model is dumped on a pickle file called ***crop_recommendation_model.pkl***. 
+The module contains a trained model using K-NN algorithm that has been trained on a dataset via supervised learning. The model is dumped on a pickle file called ***KNN_model_crop_prediction.pkl***. 
 
 You may download or clone the module to get the hang of the model. 
 
